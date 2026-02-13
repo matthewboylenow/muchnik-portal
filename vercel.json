@@ -1,0 +1,24 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/collect-gsc",
+      "schedule": "0 6 * * *"
+    },
+    {
+      "path": "/api/cron/collect-gbp",
+      "schedule": "0 7 * * *"
+    },
+    {
+      "path": "/api/cron/collect-rankings",
+      "schedule": "0 8 * * 1"
+    },
+    {
+      "path": "/api/cron/collect-fathom",
+      "schedule": "0 9 * * *"
+    },
+    {
+      "path": "/api/cron/collect-videos",
+      "schedule": "0 10 * * 1"
+    }
+  ]
+}
